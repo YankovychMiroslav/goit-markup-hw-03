@@ -11,14 +11,32 @@ body {
   color: var(--text-title-color);
   letter-spacing: 0.03em;
 }
-
+/* ------------------reset start---------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
   text-decoration: none;
+  color: currentColor;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* ------------------reset end---------------- */
 
 /* ------------------HAEDER---------------- */
 .logo {
@@ -209,7 +227,3 @@ body {
   color: var(--text-paragraf-color);
 }
 /* ------------------progecr---------------- */
-
-.alert {
-  color: var(--link-focus-color);
-}
