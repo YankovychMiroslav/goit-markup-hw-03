@@ -1,0 +1,215 @@
+:root {
+  --link-focus-color: #2196f3;
+  --text-paragraf-color: #757575;
+  --text-fon-white-color: #ffffff;
+  --text-title-color: #212121;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: var(--text-fon-white-color);
+  color: var(--text-title-color);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ------------------HAEDER---------------- */
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(16 / 12);
+
+  color: var(--link-focus-color);
+}
+
+.logo-header {
+  color: var(--text-title-color);
+}
+.nav-item {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--text-title-color);
+}
+.nav-link {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--text-title-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--link-focus-color);
+}
+.alert {
+  accent-color: var(--link-focus-color);
+}
+
+.contact-nav {
+  font-weight: 500;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-paragraf-color);
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+  color: var(--link-focus-color);
+}
+
+/* ------------------HAEDER---------------- */
+
+/* ------------------hero---------------- */
+
+.hero-list {
+  background-color: #2f303a;
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-fon-white-color);
+}
+.header-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 12);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-fon-white-color);
+  cursor: pointer;
+  background-color: var(--link-focus-color);
+}
+
+/* ------------------hero---------------- */
+
+/* ------------------featore ---------------- */
+
+.featore-title {
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--text-title-color);
+}
+.featore-text {
+  line-height: calc(24 / 14);
+  color: var(--text-paragraf-color);
+}
+
+/* ------------------featore ---------------- */
+
+/* -----------------section-title ---------------- */
+.section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--text-title-color);
+}
+/* ------------------section-title---------------- */
+
+/* ------------------team ---------------- */
+
+.section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--text-title-color);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  color: var(--text-title-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+
+  color: var(--text-paragraf-color);
+}
+/* ------------------team ---------------- */
+
+/* ------------------footer---------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--link-focus-color);
+}
+.logo-footer {
+  color: var(--text-fon-white-color);
+}
+.contact-gps {
+  font-style: normal;
+  line-height: 24px;
+  color: var(--text-fon-white-color);
+}
+.contact-link {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--link-focus-color);
+}
+
+/* ------------------footer---------------- */
+
+/* ------------------portfolio-hero---------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  color: var(--text-title-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--text-fon-white-color);
+  background: var(--link-focus-color);
+}
+
+/* ------------------progecr---------------- */
+
+.project-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--text-title-color);
+}
+.project-teax {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--text-paragraf-color);
+}
+/* ------------------progecr---------------- */
+
+.alert {
+  color: var(--link-focus-color);
+}
