@@ -18,7 +18,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
 }
 .list {
@@ -35,6 +36,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 /* ------------------reset end---------------- */
 
@@ -92,6 +98,8 @@ img {
   background-color: #2f303a;
 }
 .hero {
+  width: 696px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -124,12 +132,15 @@ img {
 /* ------------------featore ---------------- */
 
 .featore-title {
+  margin-top: 10px;
+  width: 270px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   font-size: 14px;
   color: var(--text-title-color);
 }
 .featore-text {
+  width: 270px;
   line-height: calc(24 / 14);
   color: var(--text-paragraf-color);
 }
