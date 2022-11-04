@@ -45,7 +45,29 @@ img {
 /* ------------------reset end---------------- */
 
 /* ------------------HAEDER---------------- */
+.header-container {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-container {
+  margin-right: auto;
+}
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+.nav-header {
+  display: flex;
+  gap: 50px;
+}
 .logo {
+  margin-right: 93px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -93,7 +115,8 @@ img {
 /* ------------------HAEDER---------------- */
 
 /* ------------------hero---------------- */
-
+.container-hero {
+}
 .hero-list {
   background-color: #2f303a;
 }
