@@ -105,6 +105,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--text-paragraf-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-nav:hover,
@@ -116,6 +118,19 @@ img {
 
 /* ------------------hero---------------- */
 .container-hero {
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+}
+.hero {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.header-btn {
+  display: flex;
+  margin-top: 200px;
 }
 .hero-list {
   background-color: #2f303a;
@@ -153,9 +168,24 @@ img {
 /* ------------------hero---------------- */
 
 /* ------------------featore ---------------- */
+.container-featore {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.featore-list {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 118px;
+}
+.featore-title {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 94px;
+  margin-bottom: 10px;
+}
 
 .featore-title {
-  margin-top: 10px;
   width: 270px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -172,6 +202,13 @@ img {
 
 /* -----------------section-title ---------------- */
 .section-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.nav-list {
+  gap: 30px;
+}
+.section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -180,7 +217,15 @@ img {
 /* ------------------section-title---------------- */
 
 /* ------------------team ---------------- */
-
+.team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.team-text {
+  margin-bottom: 124px;
+  justify-content: center;
+}
 .section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -204,7 +249,11 @@ img {
 /* ------------------team ---------------- */
 
 /* ------------------footer---------------- */
-
+.container-footer {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
 .footer {
   background-color: #2f303a;
 }
