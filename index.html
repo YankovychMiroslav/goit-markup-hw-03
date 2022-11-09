@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header-container container">
-        <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span></a>
         <nav class="nav-container">
+          <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span></a>
           <ul class="nav-list list">
             <li class="nav-item">
               <a href="./index.html" class="nav-link link alert">Студія</a>
@@ -45,14 +45,14 @@
       </div>
     </header>
     <main>
-      <section class="hero-list list">
-        <div class="container-hero">
-          <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
+      <section class="section hero">
+        <div class="container">
+          <h1 class="hero-h">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="header-btn">Замовити послугу</button>
         </div>
       </section>
-      <section class="featore">
-        <div class="container-featore">
+      <section class="section featore">
+        <div class="container">
           <h2 hidden>особливості</h2>
           <ul class="featore-list list">
             <li>
@@ -82,7 +82,7 @@
           </ul>
         </div>
       </section>
-      <section class="about-list list">
+      <section class="about">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="nav-list list">
@@ -98,29 +98,37 @@
           </ul>
         </div>
       </section>
-      <section class="team-list list">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="nav-list list">
             <li>
               <img src="./images/img2.jpg" alt="команда1ч" width="270" height="260" />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-list-text">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li>
               <img src="./images/img1.jpg" alt="комана2ж" width="270" height="260" />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="team-text" lang="en">Frontend Developer</p>
+              <div class="team-list-text">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p class="team-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li>
               <img src="./images/img3.jpg" alt="команда3ч" width="270" height="260" />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-list-text">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li>
               <img src="./images/img.jpg" alt="команда4ч" width="270" height="260" />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-list-text">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -128,7 +136,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container-footer container">
+      <div class="container">
         <a class="footer-logo link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >

@@ -60,12 +60,12 @@ img {
 
 /* ------------------HAEDER---------------- */
 .header-container {
-  align-items: baseline;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
-.nav-container {
-  margin-right: auto;
+.header {
+  box-sizing: border-box;
 }
 
 .nav-list {
@@ -76,13 +76,16 @@ img {
   display: flex;
   gap: 50px;
 }
+.nav-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   margin-right: 93px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: calc(16 / 12);
-
   color: var(--link-focus-color);
 }
 
@@ -130,15 +133,13 @@ img {
 /* ------------------HAEDER---------------- */
 
 /* ------------------hero---------------- */
-.container-hero {
+
+.hero {
+  background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
-.hero-list {
-  background-color: #2f303a;
-}
-.hero {
+.hero-h {
   margin: 0 auto;
   text-align: center;
   width: 696px;
@@ -169,25 +170,21 @@ img {
   background-color: var(--link-focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 /* ------------------hero---------------- */
 
 /* ------------------featore ---------------- */
-.container-featore {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .featore-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 118px;
 }
 .featore-title {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 94px;
   margin-bottom: 10px;
   width: 270px;
   line-height: calc(16 / 14);
@@ -209,7 +206,6 @@ img {
   gap: 30px;
 }
 .section-title {
-  margin-top: 94px;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -219,15 +215,15 @@ img {
 /* ------------------section-title---------------- */
 
 /* ------------------team ---------------- */
-
-.section-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  color: var(--text-title-color);
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-list-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-title {
-  margin-top: 30px;
   margin-bottom: 10px;
   justify-content: center;
   font-weight: 500;
@@ -237,7 +233,6 @@ img {
   color: var(--text-title-color);
 }
 .team-text {
-  margin-bottom: 124px;
   justify-content: center;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -247,16 +242,13 @@ img {
 /* ------------------team ---------------- */
 
 /* ------------------footer---------------- */
-.container-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 .footre-items:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer {
-  background-color: #2f303a;
 }
 .footer-logo {
   display: block;
@@ -292,6 +284,7 @@ img {
 /* ------------------portfolio-hero---------------- */
 
 .portfolio-btn {
+  display: inline-block;
   padding: 6px 25px;
   font-family: inherit;
   font-weight: 500;
@@ -300,11 +293,11 @@ img {
   text-align: center;
   color: var(--text-title-color);
   cursor: pointer;
+  border: none;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  min-width: 76px;
-  min-height: 42px;
+  min-width: 23px;
+  min-height: 38px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -325,7 +318,11 @@ img {
 }
 
 /* ------------------progecr---------------- */
-
+.progecr-list-text {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
 .project-title {
   padding-top: 20px;
   padding-bottom: 4px;
