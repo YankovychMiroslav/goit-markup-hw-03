@@ -60,6 +60,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /* ------------------reset end---------------- */
 
 /* ------------------HAEDER---------------- */
@@ -69,7 +70,7 @@ img {
   justify-content: space-between;
 }
 .header {
-  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-list {
@@ -92,7 +93,9 @@ img {
   line-height: calc(16 / 12);
   color: var(--link-focus-color);
 }
-
+.alert {
+  color: var(--link-focus-color);
+}
 .logo-header {
   color: var(--text-title-color);
 }
@@ -113,12 +116,8 @@ img {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--link-focus-color);
-}
-.alert {
   accent-color: var(--link-focus-color);
 }
-
 .contact-nav {
   font-weight: 500;
   line-height: calc(24 / 14);
@@ -131,6 +130,9 @@ img {
 
 .contact-nav:hover,
 .contact-nav:focus {
+  color: var(--link-focus-color);
+}
+.alert {
   color: var(--link-focus-color);
 }
 
@@ -155,10 +157,7 @@ img {
   display: block;
   margin: 0 auto;
   align-items: center;
-  text-align: center;
-  min-width: 220px;
-  min-height: 64px;
-  padding: 9px 31px;
+  padding: 5px 31px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -170,6 +169,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 /* ------------------hero---------------- */
@@ -238,6 +238,16 @@ img {
   text-align: center;
   color: var(--text-paragraf-color);
 }
+.team-nav {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team {
+  background: #f5f4fa;
+}
 /* ------------------team ---------------- */
 
 /* ------------------footer---------------- */
@@ -283,6 +293,9 @@ img {
 /* ------------------portfolio-hero---------------- */
 
 .portfolio-btn {
+  min-width: 23px;
+  min-height: 38px;
+
   display: inline-block;
   padding: 6px 25px;
   font-family: inherit;
@@ -291,12 +304,9 @@ img {
   line-height: calc(26 / 16);
   text-align: center;
   color: var(--text-title-color);
+  border-radius: 4px;
   cursor: pointer;
   border: none;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  min-width: 23px;
-  min-height: 38px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -307,8 +317,7 @@ img {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .progecr-list {
   display: flex;
@@ -321,17 +330,16 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px;
 }
 .project-title {
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--text-title-color);
 }
 .project-teax {
-  padding-bottom: 50px;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--text-paragraf-color);
