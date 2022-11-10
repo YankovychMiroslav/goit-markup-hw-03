@@ -56,6 +56,10 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* ------------------reset end---------------- */
 
 /* ------------------HAEDER---------------- */
@@ -134,11 +138,6 @@ img {
 
 /* ------------------hero---------------- */
 
-.hero {
-  background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 .hero-h {
   margin: 0 auto;
   text-align: center;
@@ -176,9 +175,13 @@ img {
 /* ------------------hero---------------- */
 
 /* ------------------featore ---------------- */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.hero {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.featore {
+  padding-bottom: 0px;
 }
 .featore-list {
   display: flex;
@@ -215,10 +218,6 @@ img {
 /* ------------------section-title---------------- */
 
 /* ------------------team ---------------- */
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .team-list-text {
   padding-top: 30px;
   padding-bottom: 30px;
